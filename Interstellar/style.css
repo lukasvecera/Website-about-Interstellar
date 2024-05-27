@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Linotype Didot Std Roman";
+    src: url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.eot");
+    src: url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f569af6c879acddf7a126957b42365d8.svg#Linotype Didot Std Roman")format("svg");
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    background:rgba(0, 0, 0, 0.85) url(images/Interstellar.webp);
+    max-width: 80%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    position: relative;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 80px;
+    width: 50%;
+}
+.logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 70px;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.button:hover:after { 
+    width: 100%; 
+    left: 0; 
+}.zaobleni {
+    border-radius: 15%;
+    padding: 20px;
+}
+.navbar {
+    font-size: 25px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+    margin-right: 15px;
+    display: flex;
+    bottom: 125px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+}
+.kategorie {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline 1.5px;
+}
+.kategorie1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: underline 1.5px;
+}
+.hlavni{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.rada1, .rada2, .rada3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.podnadpis {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.jmeno {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.stred {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    color: white;
+    font-size: 30px;
+}
+.upozorneni {
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+}
+.uvod {
+    text-align: center;
+    font-size: 40px;
+}
+.hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+table, th, td {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+th, td {
+    text-align: center;
+}
+th {
+    font-size: 70px;
+}
+td {
+    font-size: 50px;
+    padding: 10px;
+}
+div.gallery {
+    border: 2px solid #ccc;
+    margin: 4px;
+    margin-bottom: 50px;
+}
+div.gallery:hover {
+    border: 2px solid #777;
+} 
+div.gallery img {
+    width: 100%;
+    height: auto;
+} 
+div.desc {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    float: left;
+    width: 24.99999%;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+} 
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+.video {
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+.nepopis {
+    text-align: center;
+    font-size: 60px;
+}
